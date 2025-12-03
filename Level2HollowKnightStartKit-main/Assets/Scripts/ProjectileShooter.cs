@@ -4,30 +4,49 @@ public class ProjectileShooter : MonoBehaviour
 {
     public GameObject projectilePrefab;
     public Transform spawnPoint;
-    private Vector3 direction;
+
+    [Tooltip("Projectiles per second")]
+    public float fireRate = 5f;
+
+    private float fireCooldown = 0f;
+    private Vector3 direction = Vector3.right;
 
     public void SetDirection(Vector3 newDirection)
     {
-        direction = newDirection; 
+        direction = newDirection;
     }
 
-    public void Fire()
+    void Update()
     {
-        GameObject newProjectile = Instantiate(projectilePrefab) as GameObject;
+        // Count down the cooldown timer
+        if (fireCooldown > 0f)
+            fireCooldown -= Time.deltaTime;
+    }
+
+    public void TryFire()
+    {
+        // Only fire if cooldown expired
+        if (fireCooldown <= 0f)
+        {
+            Fire();
+            fireCooldown = 1f / fireRate;
+        }
+    }
+
+    private void Fire()
+    {
+        GameObject newProjectile = Instantiate(projectilePrefab);
 
         newProjectile.transform.position = spawnPoint.position;
 
-        ProjectileController newProjectileController = newProjectile.GetComponent<ProjectileController>();
-
-        if (newProjectileController != null)
+        ProjectileController controller = newProjectile.GetComponent<ProjectileController>();
+        if (controller != null)
         {
-            newProjectileController.Setup(direction);
+            controller.Setup(direction);
         }
         else
         {
-            Debug.LogWarning("Projectile is missing a projectile controller, idiot");  
-          
+            Debug.LogWarning("Projectile missing a ProjectileController component.");
         }
     }
-//deleted start and update, this one does niether!
 }

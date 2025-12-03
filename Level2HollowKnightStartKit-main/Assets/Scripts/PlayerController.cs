@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
 
 
         //When Jumping
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
         {
             //If the jump key is pressed... jump!
             jumper.Jump();
@@ -105,13 +105,14 @@ public class PlayerController : MonoBehaviour
 
         //When shooting
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKey(KeyCode.F))
             {
                 //If we have a projectile shooter...
                 if (projectileShooter != null)
+                    projectileShooter.TryFire();
                 {
                     //Shoot!
-                    projectileShooter.Fire();
+                    //projectileShooter.Fire();
                 }
             }
         }
