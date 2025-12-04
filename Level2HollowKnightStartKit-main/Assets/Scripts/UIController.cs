@@ -94,4 +94,14 @@ public class UIController : MonoBehaviour
             coinCountText.text = "X " + coinCount;
         }
     }
+
+    public void LoadLevel(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
