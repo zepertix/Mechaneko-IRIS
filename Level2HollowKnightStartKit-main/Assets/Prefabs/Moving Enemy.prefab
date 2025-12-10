@@ -178,7 +178,7 @@ PrefabInstance:
     - target: {fileID: 4352468017455750077, guid: 8bde7a1e0ab0cca4d82dea76d24a8beb,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Test (3)
+      value: Enemy Test (move + jump)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -188,6 +188,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 257986105410809699}
+    - targetCorrespondingSourceObject: {fileID: 4352468017455750077, guid: 8bde7a1e0ab0cca4d82dea76d24a8beb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 690132550382551257}
+    - targetCorrespondingSourceObject: {fileID: 4352468017455750077, guid: 8bde7a1e0ab0cca4d82dea76d24a8beb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8367337096910848686}
+    - targetCorrespondingSourceObject: {fileID: 4352468017455750077, guid: 8bde7a1e0ab0cca4d82dea76d24a8beb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2415914338500722208}
   m_SourcePrefab: {fileID: 100100000, guid: 8bde7a1e0ab0cca4d82dea76d24a8beb, type: 3}
 --- !u!1 &6479174479848934647 stripped
 GameObject:
@@ -211,6 +223,57 @@ MonoBehaviour:
   points:
   - {fileID: 2074795780904703816}
   - {fileID: 3747659316120070677}
+--- !u!114 &690132550382551257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6479174479848934647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a700a7fc0abd049f3a299069844758f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Jumper
+  jumpImpulse: 30
+  jumpBonusModifier: 1
+  doubleJumpAllowed: 0
+  jumpSound: {fileID: 0}
+--- !u!114 &8367337096910848686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6479174479848934647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39d7024acd94cc44997e4f54fcb7c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpOverTime
+  timeBetweenJumps: 3
+--- !u!95 &2415914338500722208
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6479174479848934647}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b7b291e8f871cd4d98dc3be35eb3201, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &8500042088579992755 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187687491318111225, guid: 8bde7a1e0ab0cca4d82dea76d24a8beb,

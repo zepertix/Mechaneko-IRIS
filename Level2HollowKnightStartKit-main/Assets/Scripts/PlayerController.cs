@@ -7,6 +7,8 @@ using UnityEngine;
 [RequireComponent(typeof(Jumper))]
 
 public class PlayerController : MonoBehaviour
+
+
 {
     [Tooltip("How well we can control ourselves in the air. 1 = same as on ground")]
     public float airControl = 0.5f;
@@ -16,7 +18,10 @@ public class PlayerController : MonoBehaviour
     private Mover mover;
     private Jumper jumper;
     private Animator animator;
-    private ProjectileShooter projectileShooter;
+    public ProjectileShooter projectileShooter1;
+    public ProjectileShooter projectileShooter2;
+    //adjustment to fix flipping issue
+    public SpriteRenderer spriteRenderer; // drag your player's sprite here in the Inspector
 
     void Start()
     {
@@ -24,12 +29,21 @@ public class PlayerController : MonoBehaviour
         mover = gameObject.GetComponent<Mover>();
         jumper = gameObject.GetComponent<Jumper>();
         animator = gameObject.GetComponent<Animator>();
-        projectileShooter = GetComponent<ProjectileShooter>();
+      
 
         //If we have a projectile shooter, we need to set it facing the right direction
-        if (projectileShooter != null)
+        if (projectileShooter1 != null)
         {
-            projectileShooter.SetDirection(new Vector2(1, 0));
+            projectileShooter1.SetDirection(new Vector2(1, 0));
+        }
+
+        //temporarily turning off projectileshooter2:
+        projectileShooter2 = null;
+
+
+        if (projectileShooter2 != null)
+        {
+            projectileShooter2.SetDirection(new Vector2(1, 0));
         }
     }
 
@@ -51,70 +65,46 @@ public class PlayerController : MonoBehaviour
         //Ask the jumper if we're in the air. If we are, apply the air control modifier
         float airControlModifier = jumper.GetIsOnGround() ? 1f : airControl;
 
-        //Moving Right
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            //When right key is pressed, accelerate towards the right...
-            mover.AccelerateInDirection(new Vector2(airControlModifier, 0f));
+    //Moving Right
+    if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+    {
+        mover.AccelerateInDirection(new Vector2(airControlModifier, 0f));
+        if (animator != null) animator.SetBool("Walking", true);
 
-            if (animator != null)
-            {
-                //and tell the animator we are walking after all...
-                animator.SetBool("Walking", true);
-            }
+        // Flip sprite instead of rotating the whole player
+        if (spriteRenderer != null)
+            spriteRenderer.flipX = false;
 
-            //And flip our entire body to face the right
-            transform.rotation = Quaternion.Euler(transform.rotation.x, 0f, transform.rotation.z);
+        if (projectileShooter1 != null)
+            projectileShooter1.SetDirection(new Vector2(1f, 0.1f));
+    }
 
-            //If we have a projectile shooter, we also need it to face the right
-            if (projectileShooter != null)
-            {
-                projectileShooter.SetDirection(new Vector2(1f, 0.1f));
-            }
-        }
+    //Moving Left
+    if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+    {
+        mover.AccelerateInDirection(new Vector2(-airControlModifier, 0f));
+        if (animator != null) animator.SetBool("Walking", true);
 
-        //Moving Left
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-        {
-            //When left key is pressed, accelerate towards the left...
-            mover.AccelerateInDirection(new Vector2(-airControlModifier, 0f));
+        // Flip sprite instead of rotating the whole player
+        if (spriteRenderer != null)
+            spriteRenderer.flipX = true;
 
-            if (animator != null)
-            {
-                //and tell the animator we are walking after all...
-                animator.SetBool("Walking", true);
-            }
-
-            //And flip our entire body to face the left
-            transform.rotation = Quaternion.Euler(transform.rotation.x, 180f, transform.rotation.z);
-
-            //If we have a projectile shooter, we also need it to face the left
-            if (projectileShooter != null)
-            {
-                projectileShooter.SetDirection(new Vector2(-1f, 0.1f));
-            }
-        }
+        if (projectileShooter1 != null)
+            projectileShooter1.SetDirection(new Vector2(-1f, 0.1f));
+    }
 
 
-        //When Jumping
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
+    //When Jumping
+    if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
         {
             //If the jump key is pressed... jump!
             jumper.Jump();
         }
 
         //When shooting
+        if (Input.GetKey(KeyCode.F))
         {
-            if (Input.GetKey(KeyCode.F))
-            {
-                //If we have a projectile shooter...
-                if (projectileShooter != null)
-                    projectileShooter.TryFire();
-                {
-                    //Shoot!
-                    //projectileShooter.Fire();
-                }
-            }
+            projectileShooter1?.TryFire();
         }
     }
 
@@ -128,9 +118,10 @@ public class PlayerController : MonoBehaviour
 
     public void UnlockWeapon(GameObject projectilePrefab)
     {
-        if (projectileShooter != null)
+        if (projectileShooter1 != null)
         {
-            projectileShooter.projectilePrefab = projectilePrefab;
+            projectileShooter1.projectilePrefab = projectilePrefab;
         }
+        //probably duplicate teh above function for second projectile???
     }
 }

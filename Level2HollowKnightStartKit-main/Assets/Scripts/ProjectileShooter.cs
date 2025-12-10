@@ -25,9 +25,14 @@ public class ProjectileShooter : MonoBehaviour
 
     public void TryFire()
     {
-        // Only fire if cooldown expired
         if (fireCooldown <= 0f)
         {
+            Debug.Log("TryFire called!"); // <-- Add this line to see if firing happens
+            if (projectilePrefab == null || spawnPoint == null)
+            {
+                Debug.LogWarning("ProjectileShooter missing prefab or spawn point!");
+                return;
+            }
             Fire();
             fireCooldown = 1f / fireRate;
         }

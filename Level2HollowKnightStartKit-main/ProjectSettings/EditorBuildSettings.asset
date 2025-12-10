@@ -5,14 +5,23 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Mechaneko/MNI_Main_Menu.unity
+    guid: 3a2e3a7299b7e4840900e3c498dd4816
+  - enabled: 1
+    path: Assets/Scenes/Mechaneko/MNI_Lv_01.unity
+    guid: 14db30f0c777bec4fbe40e43387193b3
+  - enabled: 1
+    path: Assets/Scenes/Mechaneko/MNI_Lv_02.unity
+    guid: 049de1cd2a3a02348b2ae35e1661a205
   - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 45001f0b1b09e47eb9360778638a38cf
   - enabled: 0
     path: Assets/Scenes/SampleLevel.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/Misc/IGA_SampleScene.unity
     guid: db329d25f25214968af4e6442af91cf1
   - enabled: 0
     path: Assets/Scenes/Level2.unity
@@ -23,5 +32,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Level4.unity
     guid: 90e5f18b9a2504ea4b5a20c5a1a0fe84
+  - enabled: 0
+    path: Assets/Scenes/Misc/Ball Drop.unity
+    guid: fe1126621e16b8f4eb5407e3b8b22c6a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
