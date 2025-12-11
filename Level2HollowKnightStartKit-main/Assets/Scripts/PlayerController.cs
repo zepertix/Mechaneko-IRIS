@@ -29,7 +29,14 @@ public class PlayerController : MonoBehaviour
         mover = gameObject.GetComponent<Mover>();
         jumper = gameObject.GetComponent<Jumper>();
         animator = gameObject.GetComponent<Animator>();
-      
+
+        // Auto-find sprite renderer if not assigned
+        if (spriteRenderer == null)
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            if (spriteRenderer == null)
+                spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
 
         //If we have a projectile shooter, we need to set it facing the right direction
         if (projectileShooter1 != null)
@@ -50,6 +57,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      
         //If we have an animator...
         if (animator != null)
         {
@@ -58,44 +66,38 @@ public class PlayerController : MonoBehaviour
             //Tell the animator whether or not we're in the air
             animator.SetBool("IsOnGround", jumper.GetIsOnGround());
             //Tell the animator our current y velocity 
-            animator.SetFloat("YVelocity", gameObject.GetComponent<Rigidbody2D>().linearVelocity.y);
+      animator.SetFloat("YVelocity", GetComponent<Rigidbody2D>().velocity.y);
             //It uses all these things to decide which animation to play
         }
+
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        //Debug.Log("Horizontal = " + horizontal);
+
+        // Handle visual facing direction
+        if (horizontal > 0 && spriteRenderer != null)
+            spriteRenderer.flipX = false;
+        else if (horizontal < 0 && spriteRenderer != null)
+            spriteRenderer.flipX = true;
 
         //Ask the jumper if we're in the air. If we are, apply the air control modifier
         float airControlModifier = jumper.GetIsOnGround() ? 1f : airControl;
 
-    //Moving Right
-    if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-    {
-        mover.AccelerateInDirection(new Vector2(airControlModifier, 0f));
-        if (animator != null) animator.SetBool("Walking", true);
+        // Apply movement
+        if (horizontal != 0)
+        {
+            mover.AccelerateInDirection(new Vector2(horizontal * airControlModifier, 0f));
 
-        // Flip sprite instead of rotating the whole player
-        if (spriteRenderer != null)
-            spriteRenderer.flipX = false;
+            if (animator != null)
+                animator.SetBool("Walking", true);
 
-        if (projectileShooter1 != null)
-            projectileShooter1.SetDirection(new Vector2(1f, 0.1f));
-    }
-
-    //Moving Left
-    if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-    {
-        mover.AccelerateInDirection(new Vector2(-airControlModifier, 0f));
-        if (animator != null) animator.SetBool("Walking", true);
-
-        // Flip sprite instead of rotating the whole player
-        if (spriteRenderer != null)
-            spriteRenderer.flipX = true;
-
-        if (projectileShooter1 != null)
-            projectileShooter1.SetDirection(new Vector2(-1f, 0.1f));
-    }
+            // Set projectile direction based on facing
+            if (projectileShooter1 != null)
+                projectileShooter1.SetDirection(new Vector2(horizontal, 0.1f));
+        }
 
 
-    //When Jumping
-    if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
+        //When Jumping
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
         {
             //If the jump key is pressed... jump!
             jumper.Jump();

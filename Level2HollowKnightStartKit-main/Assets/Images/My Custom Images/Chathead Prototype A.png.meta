@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1b1f7be8c4af4d746ac3184998944b06
+guid: 07ca2c08838c9bb4c90f5953afb15046
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2012437113324765596
-    second: Jump 01_0
+      213: 3951341223561700399
+    second: Chathead Prototype A_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump 01_0
+      name: Chathead Prototype A_0
       rect:
         serializedVersion: 2
-        x: 1915
-        y: 125
-        width: 3474
-        height: 4166
+        x: 0
+        y: 0
+        width: 1323
+        height: 1323
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46ef6779b136214e0800000000000000
-      internalID: -2012437113324765596
+      spriteID: f24a0c068ebf5d630800000000000000
+      internalID: 3951341223561700399
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Jump 01_0: -2012437113324765596
+      Chathead Prototype A_0: 3951341223561700399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
