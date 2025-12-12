@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
             //Tell the animator whether or not we're in the air
             animator.SetBool("IsOnGround", jumper.GetIsOnGround());
             //Tell the animator our current y velocity 
-      animator.SetFloat("YVelocity", GetComponent<Rigidbody2D>().velocity.y);
+      animator.SetFloat("YVelocity", GetComponent<Rigidbody2D>().linearVelocity.y);
             //It uses all these things to decide which animation to play
         }
 
@@ -74,10 +74,10 @@ public class PlayerController : MonoBehaviour
         //Debug.Log("Horizontal = " + horizontal);
 
         // Handle visual facing direction
-        if (horizontal > 0 && spriteRenderer != null)
-            spriteRenderer.flipX = false;
-        else if (horizontal < 0 && spriteRenderer != null)
-            spriteRenderer.flipX = true;
+        if (horizontal > 0)
+            transform.rotation = Quaternion.Euler(transform.rotation.x, 0f, transform.rotation.z);
+        else if (horizontal < 0)
+            transform.rotation = Quaternion.Euler(transform.rotation.x, 180f, transform.rotation.z);
 
         //Ask the jumper if we're in the air. If we are, apply the air control modifier
         float airControlModifier = jumper.GetIsOnGround() ? 1f : airControl;
