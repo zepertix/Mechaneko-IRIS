@@ -9,12 +9,12 @@ public class DialogueTrigger2D : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("OnTriggerEnter2D called with: " + other.name);
+        //Debug.Log("OnTriggerEnter2D called with: " + other.name);
 
         if (!other.CompareTag("Player"))
             return;
 
-        Debug.Log("Player entered trigger");
+        //Debug.Log("Player entered trigger");
 
         if (dialogueController != null)
         {
@@ -34,7 +34,7 @@ public class DialogueTrigger2D : MonoBehaviour
         if (!other.CompareTag("Player"))
             return;
 
-        Debug.Log("Player exited trigger");
+        //Debug.Log("Player exited trigger");
 
         playerInside = false;
 
