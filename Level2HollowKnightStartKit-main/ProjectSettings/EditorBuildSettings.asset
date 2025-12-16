@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Mechaneko/MNI_Main_Menu.unity
+    path: Assets/Scenes/Mechaneko/MNI_Lv0_Menu.unity
     guid: 3a2e3a7299b7e4840900e3c498dd4816
   - enabled: 1
     path: Assets/Scenes/Mechaneko/MNI_Lv_01.unity
