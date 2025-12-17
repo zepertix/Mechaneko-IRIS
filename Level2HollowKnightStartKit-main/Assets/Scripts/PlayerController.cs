@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     private Mover mover;
     private Jumper jumper;
     private Animator animator;
+    private Dasher dasher;
+
     public ProjectileShooter projectileShooter1;
     public ProjectileShooter projectileShooter2;
     //adjustment to fix flipping issue
@@ -29,6 +31,7 @@ public class PlayerController : MonoBehaviour
         mover = gameObject.GetComponent<Mover>();
         jumper = gameObject.GetComponent<Jumper>();
         animator = gameObject.GetComponent<Animator>();
+        dasher = gameObject.GetComponent<Dasher>();
 
         // Auto-find sprite renderer if not assigned
         if (spriteRenderer == null)
@@ -39,10 +42,15 @@ public class PlayerController : MonoBehaviour
         }
 
         //If we have a projectile shooter, we need to set it facing the right direction
-        if (projectileShooter1 != null)
+      //  if (projectileShooter1 != null)
         {
-            projectileShooter1.SetDirection(new Vector2(1, 0));
+      //      projectileShooter1.SetDirection(new Vector2(1, 0));
         }
+        if (dasher != null)
+        {
+            dasher.SetDirection(new Vector2(1f, 0f));
+        }
+
 
         //temporarily turning off projectileshooter2:
         projectileShooter2 = null;
@@ -95,12 +103,26 @@ public class PlayerController : MonoBehaviour
                 projectileShooter1.SetDirection(new Vector2(horizontal, 0.1f));
         }
 
+        if (dasher != null)
+        {
+            dasher.SetDirection(new Vector2(-1f, 0f));
+        }
+
 
         //When Jumping
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
         {
             //If the jump key is pressed... jump!
             jumper.Jump();
+        }
+
+        //When Dashing
+        if( Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+        {
+            if (dasher != null)
+            {
+                dasher.Dash();
+            }
         }
 
         //When shooting
@@ -124,6 +146,17 @@ public class PlayerController : MonoBehaviour
         {
             projectileShooter1.projectilePrefab = projectilePrefab;
         }
-        //probably duplicate teh above function for second projectile???
     }
+
+
+    public void UnlockDash()
+    {
+        if (projectileShooter1 != null)
+        {
+            dasher.dashAllowed = true;
+        }
+    }
+
+        //probably duplicate teh above function for second projectile???
+    
 }
