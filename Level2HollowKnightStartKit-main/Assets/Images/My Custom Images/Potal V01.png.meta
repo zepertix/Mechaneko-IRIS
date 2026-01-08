@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: d0f7a23ce89693f44975ddd3f045a9d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1982906422764897818
+    second: Potal V01_0
+  - first:
+      213: 5847933650067844619
+    second: Potal V01_1
+  - first:
+      213: 3817877488961073750
+    second: Potal V01_2
+  - first:
+      213: 4413016933661809038
+    second: Potal V01_3
+  - first:
+      213: 3085723549443373845
+    second: Potal V01_4
+  - first:
+      213: -7498492241059664786
+    second: Potal V01_5
+  - first:
+      213: 3145281051373862160
+    second: Potal V01_6
+  - first:
+      213: 8809392576230439011
+    second: Potal V01_7
+  - first:
+      213: -3070673850960297809
+    second: Potal V01_8
+  - first:
+      213: 1402019235839123264
+    second: Potal V01_9
+  - first:
+      213: -6060351962878114446
+    second: Potal V01_10
+  - first:
+      213: 4504677755945221744
+    second: Potal V01_11
+  - first:
+      213: -4271964509638892326
+    second: Potal V01_12
+  - first:
+      213: 2847725350142653813
+    second: Potal V01_13
+  - first:
+      213: -3772832125899579849
+    second: Potal V01_14
+  - first:
+      213: 4900121401068397676
+    second: Potal V01_15
+  - first:
+      213: -3125238897252587589
+    second: Potal V01_16
+  - first:
+      213: -4864883943976254257
+    second: Potal V01_17
+  - first:
+      213: 82447339930747125
+    second: Potal V01_18
+  - first:
+      213: 9063140035493101670
+    second: Potal V01_19
+  - first:
+      213: -3405131206561524660
+    second: Potal V01_20
+  - first:
+      213: -5561174250088507723
+    second: Potal V01_21
+  - first:
+      213: 7021980252832868817
+    second: Potal V01_22
+  - first:
+      213: -1831588977397298157
+    second: Potal V01_23
+  - first:
+      213: 2619347706926466097
+    second: Potal V01_24
+  - first:
+      213: 6587425999255456788
+    second: Potal V01_25
+  - first:
+      213: -923553935449639676
+    second: Potal V01_26
+  - first:
+      213: 5191965072383236023
+    second: Potal V01_27
+  - first:
+      213: -3197063179148076471
+    second: Potal V01_28
+  - first:
+      213: 2886523388397778717
+    second: Potal V01_29
+  - first:
+      213: 1517288135681098920
+    second: Potal V01_30
+  - first:
+      213: 5252223097529769412
+    second: Potal V01_31
+  - first:
+      213: 502619533886524031
+    second: Potal V01_32
+  - first:
+      213: 5138415258138620562
+    second: Potal V01_33
+  - first:
+      213: 2907492906515889759
+    second: Potal V01_34
+  - first:
+      213: 2747032336757268806
+    second: Potal V01_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Potal V01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9f1484d1d4b74e0800000000000000
+      internalID: -1982906422764897818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_1
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1014
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ee85acba8082150800000000000000
+      internalID: 5847933650067844619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_2
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1005
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6523c752953dbf430800000000000000
+      internalID: 3817877488961073750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_3
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 990
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8912be158f2e3d30800000000000000
+      internalID: 4413016933661809038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_4
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 970
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b31a72831b2da20800000000000000
+      internalID: 3085723549443373845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_5
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 973
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cad94190100f790800000000000000
+      internalID: -7498492241059664786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_6
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 963
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01df7e9a37846ab20800000000000000
+      internalID: 3145281051373862160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_7
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 961
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368bd29bfdf314a70800000000000000
+      internalID: 8809392576230439011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_8
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 955
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa04e64d666c265d0800000000000000
+      internalID: -3070673850960297809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_9
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 950
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f94781119f47310800000000000000
+      internalID: 1402019235839123264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_10
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 940
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2750fc6bffd45eba0800000000000000
+      internalID: -6060351962878114446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_11
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 944
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ef7be5d84d38e30800000000000000
+      internalID: 4504677755945221744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_12
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 919
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4e5ed89eee6b4c0800000000000000
+      internalID: -4271964509638892326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_13
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 923
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575b0293e17258720800000000000000
+      internalID: 2847725350142653813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_14
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 897
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ed29abb2534abc0800000000000000
+      internalID: -3772832125899579849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_15
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 907
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64a8fac37ab00440800000000000000
+      internalID: 4900121401068397676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_16
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 806
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7a60bf7cbe0a4d0800000000000000
+      internalID: -3125238897252587589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 179
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc44bc504d57c7cb0800000000000000
+      internalID: -4864883943976254257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 182
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f08f393b69e42100800000000000000
+      internalID: 82447339930747125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 175
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660003df7ddb6cd70800000000000000
+      internalID: 9063140035493101670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 168
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c449d43753b8eb0d0800000000000000
+      internalID: -3405131206561524660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6dc61eb7db2d2b0800000000000000
+      internalID: -5561174250088507723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d929edf5d5137160800000000000000
+      internalID: 7021980252832868817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 134
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c86bb7783e496e0800000000000000
+      internalID: -1831588977397298157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134069e8cdac95420800000000000000
+      internalID: 2619347706926466097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c4bcd6b0d3b6b50800000000000000
+      internalID: 6587425999255456788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4053c92c690ee23f0800000000000000
+      internalID: -923553935449639676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 126
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b753a1a9b09d0840800000000000000
+      internalID: 5191965072383236023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ad5623affb1a3d0800000000000000
+      internalID: -3197063179148076471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 119
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d177e417abdfe0820800000000000000
+      internalID: 2886523388397778717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 98
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4cf2d358d7e0510800000000000000
+      internalID: 1517288135681098920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 84
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd1d596415a3e840800000000000000
+      internalID: 5252223097529769412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a8a769dc9a9f600800000000000000
+      internalID: 502619533886524031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292bcc9e3715f4740800000000000000
+      internalID: 5138415258138620562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 73
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ef8d7d46d795820800000000000000
+      internalID: 2907492906515889759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Potal V01_35
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 52
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641adea1b5b6f1620800000000000000
+      internalID: 2747032336757268806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Potal V01_0: -1982906422764897818
+      Potal V01_1: 5847933650067844619
+      Potal V01_10: -6060351962878114446
+      Potal V01_11: 4504677755945221744
+      Potal V01_12: -4271964509638892326
+      Potal V01_13: 2847725350142653813
+      Potal V01_14: -3772832125899579849
+      Potal V01_15: 4900121401068397676
+      Potal V01_16: -3125238897252587589
+      Potal V01_17: -4864883943976254257
+      Potal V01_18: 82447339930747125
+      Potal V01_19: 9063140035493101670
+      Potal V01_2: 3817877488961073750
+      Potal V01_20: -3405131206561524660
+      Potal V01_21: -5561174250088507723
+      Potal V01_22: 7021980252832868817
+      Potal V01_23: -1831588977397298157
+      Potal V01_24: 2619347706926466097
+      Potal V01_25: 6587425999255456788
+      Potal V01_26: -923553935449639676
+      Potal V01_27: 5191965072383236023
+      Potal V01_28: -3197063179148076471
+      Potal V01_29: 2886523388397778717
+      Potal V01_3: 4413016933661809038
+      Potal V01_30: 1517288135681098920
+      Potal V01_31: 5252223097529769412
+      Potal V01_32: 502619533886524031
+      Potal V01_33: 5138415258138620562
+      Potal V01_34: 2907492906515889759
+      Potal V01_35: 2747032336757268806
+      Potal V01_4: 3085723549443373845
+      Potal V01_5: -7498492241059664786
+      Potal V01_6: 3145281051373862160
+      Potal V01_7: 8809392576230439011
+      Potal V01_8: -3070673850960297809
+      Potal V01_9: 1402019235839123264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
