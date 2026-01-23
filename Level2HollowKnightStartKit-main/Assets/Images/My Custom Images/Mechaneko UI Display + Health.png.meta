@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: d1b701c2962a0824f8416b7c1b231a28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1908729493343244501
+    second: Mechaneko UI Display + Health_0
+  - first:
+      213: 7509054488376681872
+    second: Mechaneko UI Display + Health_1
+  - first:
+      213: -6945294507517475388
+    second: Mechaneko UI Display + Health_2
+  - first:
+      213: 84018418813192121
+    second: Mechaneko UI Display + Health_3
+  - first:
+      213: -5895699555833731302
+    second: Mechaneko UI Display + Health_4
+  - first:
+      213: -4084202896215097547
+    second: Mechaneko UI Display + Health_5
+  - first:
+      213: 6906039873766506524
+    second: Mechaneko UI Display + Health_6
+  - first:
+      213: 5480697818813464500
+    second: Mechaneko UI Display + Health_7
+  - first:
+      213: 5702054770748110235
+    second: Mechaneko UI Display + Health_8
+  - first:
+      213: -3554928523291067866
+    second: Mechaneko UI Display + Health_9
+  - first:
+      213: 4758638888925855962
+    second: Mechaneko UI Display + Health_10
+  - first:
+      213: 878296990069423315
+    second: Mechaneko UI Display + Health_11
+  - first:
+      213: -2973305992533808076
+    second: Mechaneko UI Display + Health_12
+  - first:
+      213: 7163010572786708264
+    second: Mechaneko UI Display + Health_13
+  - first:
+      213: 6265860423585468675
+    second: Mechaneko UI Display + Health_14
+  - first:
+      213: 7838923499944786411
+    second: Mechaneko UI Display + Health_15
+  - first:
+      213: 3388278046602998099
+    second: Mechaneko UI Display + Health_16
+  - first:
+      213: -6550619707903697
+    second: Mechaneko UI Display + Health_17
+  - first:
+      213: 4000656264349810603
+    second: Mechaneko UI Display + Health_18
+  - first:
+      213: 1838017737405240263
+    second: Mechaneko UI Display + Health_19
+  - first:
+      213: -4229435927760128508
+    second: Mechaneko UI Display + Health_20
+  - first:
+      213: 6495318287874196378
+    second: Mechaneko UI Display + Health_21
+  - first:
+      213: -6900563929327159449
+    second: Mechaneko UI Display + Health_22
+  - first:
+      213: -596616466798632703
+    second: Mechaneko UI Display + Health_23
+  - first:
+      213: -6992440291543907333
+    second: Mechaneko UI Display + Health_24
+  - first:
+      213: 8742055818129836692
+    second: Mechaneko UI Display + Health_25
+  - first:
+      213: -1917442786966233712
+    second: Mechaneko UI Display + Health_26
+  - first:
+      213: -6773493833817218109
+    second: Mechaneko UI Display + Health_27
+  - first:
+      213: -1536520421163165727
+    second: Mechaneko UI Display + Health_28
+  - first:
+      213: -1549648603126604046
+    second: Mechaneko UI Display + Health_29
+  - first:
+      213: -1232902867088251646
+    second: Mechaneko UI Display + Health_30
+  - first:
+      213: -4757026718478930995
+    second: Mechaneko UI Display + Health_31
+  - first:
+      213: 8609974492288869971
+    second: Mechaneko UI Display + Health_32
+  - first:
+      213: 2282431971956355456
+    second: Mechaneko UI Display + Health_33
+  - first:
+      213: -2242384414938522054
+    second: Mechaneko UI Display + Health_34
+  - first:
+      213: -6169121967092485124
+    second: Mechaneko UI Display + Health_35
+  - first:
+      213: -474520742844872812
+    second: Mechaneko UI Display + Health_36
+  - first:
+      213: -380885554651745354
+    second: Mechaneko UI Display + Health_37
+  - first:
+      213: -2013396060933388527
+    second: Mechaneko UI Display + Health_38
+  - first:
+      213: 8657594849349548094
+    second: Mechaneko UI Display + Health_39
+  - first:
+      213: -6689351015776860076
+    second: Mechaneko UI Display + Health_40
+  - first:
+      213: -1530585390386763119
+    second: Mechaneko UI Display + Health_41
+  - first:
+      213: -3476027045611712330
+    second: Mechaneko UI Display + Health_42
+  - first:
+      213: -5666787782500442845
+    second: Mechaneko UI Display + Health_43
+  - first:
+      213: -2016359052143074980
+    second: Mechaneko UI Display + Health_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 4012
+        width: 221
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fe6f083a4d285e0800000000000000
+      internalID: -1908729493343244501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 3092
+        width: 2098
+        height: 1145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095aeb2c545853860800000000000000
+      internalID: 7509054488376681872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_2
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 4106
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c503f2717b5d9f90800000000000000
+      internalID: -6945294507517475388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_3
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 4106
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b743f78e4e7a2100800000000000000
+      internalID: 84018418813192121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_4
+      rect:
+        serializedVersion: 2
+        x: 5527
+        y: 3092
+        width: 2096
+        height: 1145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a172a10ad744e2ea0800000000000000
+      internalID: -5895699555833731302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_5
+      rect:
+        serializedVersion: 2
+        x: 7458
+        y: 4020
+        width: 201
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f3a7cda1ff157c0800000000000000
+      internalID: -4084202896215097547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2442
+        width: 2880
+        height: 1630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c104988ecae27df50800000000000000
+      internalID: 6906039873766506524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_7
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 3375
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf72a3d0a95f0c40800000000000000
+      internalID: 5480697818813464500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_8
+      rect:
+        serializedVersion: 2
+        x: 4564
+        y: 3375
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95334c6a94c12f40800000000000000
+      internalID: 5702054770748110235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_9
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 2443
+        width: 2790
+        height: 1444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62af457c75b5aaec0800000000000000
+      internalID: -3554928523291067866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_10
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2286
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad009cc6bd41a0240800000000000000
+      internalID: 4758638888925855962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_11
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1343
+        width: 1386
+        height: 1562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcf1648576503c00800000000000000
+      internalID: 878296990069423315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_12
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 1363
+        width: 1448
+        height: 1522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c6b7af3f1bcb6d0800000000000000
+      internalID: -2973305992533808076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_13
+      rect:
+        serializedVersion: 2
+        x: 4267
+        y: 1343
+        width: 1386
+        height: 1562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fa1592a20286360800000000000000
+      internalID: 7163010572786708264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_14
+      rect:
+        serializedVersion: 2
+        x: 7214
+        y: 2286
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3019df77bdec4f650800000000000000
+      internalID: 6265860423585468675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_15
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1888
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9bbab046379cc60800000000000000
+      internalID: 7838923499944786411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_16
+      rect:
+        serializedVersion: 2
+        x: 7207
+        y: 1888
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351b6087ee4950f20800000000000000
+      internalID: 3388278046602998099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 11
+        width: 2098
+        height: 1217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21704ffe3ab8eff0800000000000000
+      internalID: -6550619707903697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 433
+        width: 2791
+        height: 1445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baff2011daf258730800000000000000
+      internalID: 4000656264349810603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_19
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 855
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c318e8d463f18910800000000000000
+      internalID: 1838017737405240263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_20
+      rect:
+        serializedVersion: 2
+        x: 4564
+        y: 855
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4063595ae660e45c0800000000000000
+      internalID: -4229435927760128508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_21
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 433
+        width: 2790
+        height: 1445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9307d3b191042a50800000000000000
+      internalID: 6495318287874196378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_22
+      rect:
+        serializedVersion: 2
+        x: 5527
+        y: 11
+        width: 2096
+        height: 1217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767b492caa54c30a0800000000000000
+      internalID: -6900563929327159449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_23
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 322
+        width: 119
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101a1550c7468b7f0800000000000000
+      internalID: -596616466798632703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_24
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 322
+        width: 105
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf385653a9cd5fe90800000000000000
+      internalID: -6992440291543907333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_25
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 322
+        width: 113
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a044ef275025970800000000000000
+      internalID: 8742055818129836692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_26
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 322
+        width: 111
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d1ebdb1ffd365e0800000000000000
+      internalID: -1917442786966233712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_27
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 100
+        width: 176
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3a603ee37bff1a0800000000000000
+      internalID: -6773493833817218109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_28
+      rect:
+        serializedVersion: 2
+        x: 3788
+        y: 303
+        width: 102
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e79f6a51de2daae0800000000000000
+      internalID: -1536520421163165727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_29
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 100
+        width: 176
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe55fb4eca8e7ae0800000000000000
+      internalID: -1549648603126604046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_30
+      rect:
+        serializedVersion: 2
+        x: 4019
+        y: 323
+        width: 111
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205e4a4ef59d3eee0800000000000000
+      internalID: -1232902867088251646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_31
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 322
+        width: 114
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb65024765abfdb0800000000000000
+      internalID: -4757026718478930995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_32
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 322
+        width: 106
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3566d02ee26cc7770800000000000000
+      internalID: 8609974492288869971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_33
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 322
+        width: 119
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081f37029c3dcaf10800000000000000
+      internalID: 2282431971956355456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 221
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e97b9514371e0e0800000000000000
+      internalID: -2242384414938522054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_35
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 130
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3b46f9140e26aa0800000000000000
+      internalID: -6169121967092485124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_36
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 88
+        width: 318
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4974d2406e92a69f0800000000000000
+      internalID: -474520742844872812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_37
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 96
+        width: 305
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3b7e62b92d6baf0800000000000000
+      internalID: -380885554651745354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_38
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 86
+        width: 254
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11705e333fafe04e0800000000000000
+      internalID: -2013396060933388527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_39
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 86
+        width: 254
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e383bb445a4f52870800000000000000
+      internalID: 8657594849349548094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_40
+      rect:
+        serializedVersion: 2
+        x: 4198
+        y: 96
+        width: 305
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458c8be51b6aa23a0800000000000000
+      internalID: -6689351015776860076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_41
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 88
+        width: 318
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a289362b442cae0800000000000000
+      internalID: -1530585390386763119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_42
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 130
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0d9ac91dba2cfc0800000000000000
+      internalID: -3476027045611712330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_43
+      rect:
+        serializedVersion: 2
+        x: 7437
+        y: 36
+        width: 221
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d998629868b51b0800000000000000
+      internalID: -5666787782500442845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko UI Display + Health_44
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 20
+        width: 482
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c516e5d00247404e0800000000000000
+      internalID: -2016359052143074980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mechaneko UI Display + Health_0: -1908729493343244501
+      Mechaneko UI Display + Health_1: 7509054488376681872
+      Mechaneko UI Display + Health_10: 4758638888925855962
+      Mechaneko UI Display + Health_11: 878296990069423315
+      Mechaneko UI Display + Health_12: -2973305992533808076
+      Mechaneko UI Display + Health_13: 7163010572786708264
+      Mechaneko UI Display + Health_14: 6265860423585468675
+      Mechaneko UI Display + Health_15: 7838923499944786411
+      Mechaneko UI Display + Health_16: 3388278046602998099
+      Mechaneko UI Display + Health_17: -6550619707903697
+      Mechaneko UI Display + Health_18: 4000656264349810603
+      Mechaneko UI Display + Health_19: 1838017737405240263
+      Mechaneko UI Display + Health_2: -6945294507517475388
+      Mechaneko UI Display + Health_20: -4229435927760128508
+      Mechaneko UI Display + Health_21: 6495318287874196378
+      Mechaneko UI Display + Health_22: -6900563929327159449
+      Mechaneko UI Display + Health_23: -596616466798632703
+      Mechaneko UI Display + Health_24: -6992440291543907333
+      Mechaneko UI Display + Health_25: 8742055818129836692
+      Mechaneko UI Display + Health_26: -1917442786966233712
+      Mechaneko UI Display + Health_27: -6773493833817218109
+      Mechaneko UI Display + Health_28: -1536520421163165727
+      Mechaneko UI Display + Health_29: -1549648603126604046
+      Mechaneko UI Display + Health_3: 84018418813192121
+      Mechaneko UI Display + Health_30: -1232902867088251646
+      Mechaneko UI Display + Health_31: -4757026718478930995
+      Mechaneko UI Display + Health_32: 8609974492288869971
+      Mechaneko UI Display + Health_33: 2282431971956355456
+      Mechaneko UI Display + Health_34: -2242384414938522054
+      Mechaneko UI Display + Health_35: -6169121967092485124
+      Mechaneko UI Display + Health_36: -474520742844872812
+      Mechaneko UI Display + Health_37: -380885554651745354
+      Mechaneko UI Display + Health_38: -2013396060933388527
+      Mechaneko UI Display + Health_39: 8657594849349548094
+      Mechaneko UI Display + Health_4: -5895699555833731302
+      Mechaneko UI Display + Health_40: -6689351015776860076
+      Mechaneko UI Display + Health_41: -1530585390386763119
+      Mechaneko UI Display + Health_42: -3476027045611712330
+      Mechaneko UI Display + Health_43: -5666787782500442845
+      Mechaneko UI Display + Health_44: -2016359052143074980
+      Mechaneko UI Display + Health_5: -4084202896215097547
+      Mechaneko UI Display + Health_6: 6906039873766506524
+      Mechaneko UI Display + Health_7: 5480697818813464500
+      Mechaneko UI Display + Health_8: 5702054770748110235
+      Mechaneko UI Display + Health_9: -3554928523291067866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
