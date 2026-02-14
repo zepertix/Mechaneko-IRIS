@@ -24,6 +24,26 @@ public class DialogueController : MonoBehaviour
     public Image chatheadImage;
     [Tooltip("The 'Press E to continue' text")]
     public TMP_Text continueText;
+    //2-13-26 stop movement start
+    [Header("Player Control")]
+    public PlayerController playerController;
+    //2-13-26 stop movement end
+
+    //2-13-26 spawn item start
+    [Header("Reward Settings")]
+    public GameObject itemToSpawn;     // Prefab to spawn
+    public Transform spawnPoint;       // Where to spawn it
+    public bool spawnOnDialogueEnd;    // Toggle per NPC
+
+    private bool hasSpawnedItem = false;  // Prevent duplicates
+    //2-13-26 spawn item end
+    //2-13-26 stop repeating dialogue start
+    [Header("Dialogue Settings")]
+    public bool canOnlyTalkOnce = false;
+
+    private bool hasTalked = false;
+    //2-13-26 stop repeating dialogue end
+
 
     //A private int to know how far through the conversation we are
     private int talkTextIndex;
@@ -130,39 +150,40 @@ public class DialogueController : MonoBehaviour
         //If the E key is pressed...
         if( Input.GetKeyDown( KeyCode.E ) )
         {
-            //--------------------------------------------------------------------------<<<added debug log here<<<
-            Debug.Log("E pressed!");
+            // Prevent talking again if limited to once
+            if (canOnlyTalkOnce && hasTalked)
+                return;
 
             if (!showingDialogue)
             {
-                Debug.Log("Showing dialogue");
-                //If we aren't showing dialogue yet...
                 BeginDialogue();
             }
-
-
-
-            //If we still have text to show...
-            else if( talkTextIndex < dialogueLines.Count - 1 )
+            else if (talkTextIndex < dialogueLines.Count - 1)
             {
-                //--------------------------------------------------------------------------<<<added debug log here<<<
-                Debug.Log("Advancing dialogue...");
-                //Show the next piece
                 ProgressDialogue();
             }
-            //Otherwise end dialogue
             else
             {
-                //--------------------------------------------------------------------------<<<added debug log here<<<
-                Debug.Log("Ending Dialogue");
                 EndDialogue();
             }
         }
+      
     }
 
     //When dialogue starts...
     public void BeginDialogue()
     {
+        //attempt3start
+        if (playerController != null)
+        {
+            playerController.canMove = false;
+
+            Rigidbody2D rb = playerController.GetComponent<Rigidbody2D>();
+            if (rb != null)
+                rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+        }
+        //attempt3end
+
         //Set showign dialogue to true
         showingDialogue = true;
 
@@ -228,9 +249,37 @@ public class DialogueController : MonoBehaviour
     showingDialogue = false;
     dialogueScreen.SetActive(false);
 
-    if (continueText != null)
+        if (continueText != null)
         continueText.gameObject.SetActive(false);
-}
+
+
+        //2-13-26 stop repeat dialogue start
+        if (canOnlyTalkOnce)
+            hasTalked = true;
+        //2-13-26 stop repeat dialogue end
+
+        //attempt2
+        if (playerController != null)
+            playerController.canMove = true;
+        //attempt2 end
+
+        //2-13-26 spawn item start
+        // Spawn item if enabled and not already spawned
+        if (spawnOnDialogueEnd && itemToSpawn != null && !hasSpawnedItem)
+        {
+            if (spawnPoint != null)
+            {
+                Instantiate(itemToSpawn, spawnPoint.position, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(itemToSpawn, transform.position + Vector3.right, Quaternion.identity);
+            }
+
+            hasSpawnedItem = true;
+        }
+        //2-13-26 spawn item end
+    }
     public virtual bool IsWithinDistance(float distance)
     {
         //Check if we're close enough to the target
@@ -239,7 +288,7 @@ public class DialogueController : MonoBehaviour
 
     public virtual Vector3 GetDirection()
     {
-        //Get the direction of the target
         return target.position - transform.position;
     }
 }
+

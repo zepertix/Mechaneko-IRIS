@@ -1,0 +1,1821 @@
+fileFormatVersion: 2
+guid: 73ff60176575fad4086f431e2cc6162e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5751429162216271978
+    second: Mechaneko Tilemap - Asteroid V02_0
+  - first:
+      213: -4920459862654727892
+    second: Mechaneko Tilemap - Asteroid V02_1
+  - first:
+      213: -7172687761394610461
+    second: Mechaneko Tilemap - Asteroid V02_2
+  - first:
+      213: -2610324086231239930
+    second: Mechaneko Tilemap - Asteroid V02_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -129, y: -256}
+        - {x: 131, y: -256}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: 113}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fc64b36a1de20b0800000000000000
+      internalID: -5751429162216271978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      - - {x: 61, y: -129}
+        - {x: 256, y: -129}
+        - {x: 256, y: 129}
+        - {x: 12, y: 129}
+      - - {x: -128, y: -256}
+        - {x: 132, y: -256}
+        - {x: 132, y: -67}
+        - {x: -128, y: -51}
+      physicsShape:
+      - - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29c5ea13d307bbb0800000000000000
+      internalID: -4920459862654727892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      - - {x: -256, y: -129}
+        - {x: -18, y: -129}
+        - {x: -1, y: 128}
+        - {x: -256, y: 128}
+      - - {x: -128, y: -255}
+        - {x: 131, y: -256}
+        - {x: 131, y: 15}
+        - {x: -128, y: 43}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -116, y: -109}
+        - {x: -116, y: -256}
+        - {x: 112, y: -256}
+        - {x: 113, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee4849cb7e757c90800000000000000
+      internalID: -7172687761394610461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 113}
+        - {x: 113, y: 113}
+        - {x: 114, y: 256}
+        - {x: -117, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6037a8bd21446cbd0800000000000000
+      internalID: -2610324086231239930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 112}
+        - {x: 112, y: 112}
+        - {x: 113, y: 256}
+        - {x: -116, y: 256}
+        - {x: -116, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc0d2140f0be3f4dab3305e264e18dd
+      internalID: -1830994735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 114}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652c57ddf7d355b44bbe8e35d77d622a
+      internalID: 684731448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcac1c00e426c28429199de6550d4d67
+      internalID: 1134208618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: 256}
+        - {x: -117, y: 256}
+        - {x: -117, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be93fcd09e59ec49ac11220bd72a61c
+      internalID: 539042277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_8
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 113}
+        - {x: 113, y: 113}
+        - {x: 113, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911ba5ca799ecf845b7065713b9db9e4
+      internalID: -165847776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_9
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 113}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0d09b8d90f80742b3cdf4a2328cca1
+      internalID: -951061385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_10
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 112}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912b28fc66fd2de469afaa9865db47da
+      internalID: 593142731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_11
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d7e12079ff384478fee5ad8bf6df52
+      internalID: 2088615607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -256}
+        - {x: 132, y: -256}
+        - {x: 132, y: 256}
+        - {x: -128, y: 256}
+      physicsShape:
+      - - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: 256}
+        - {x: -117, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0db0961848668949949b32c74a3c14b
+      internalID: -581051431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      - - {x: -128, y: -256}
+        - {x: 132, y: -256}
+        - {x: 132, y: -99}
+        - {x: -128, y: -96}
+      - - {x: -129, y: -26}
+        - {x: 131, y: -24}
+        - {x: 131, y: 256}
+        - {x: -129, y: 256}
+      - - {x: -21, y: -129}
+        - {x: 256, y: -129}
+        - {x: 256, y: 127}
+        - {x: -48, y: 127}
+      physicsShape:
+      - - {x: -118, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: 113, y: 113}
+        - {x: 113, y: 256}
+        - {x: -118, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7566a7935a683fc45afcf6dcc318d81f
+      internalID: -528619381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: 46, y: 190}
+        - {x: -129, y: 128}
+      - - {x: -132, y: -129}
+        - {x: 132, y: -73}
+        - {x: 132, y: 255}
+        - {x: -129, y: 256}
+      - - {x: -129, y: -256}
+        - {x: 132, y: -256}
+        - {x: 132, y: 96}
+        - {x: -129, y: 89}
+      - - {x: -256, y: -129}
+        - {x: 23, y: -129}
+        - {x: 83, y: 128}
+        - {x: -256, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: 256}
+        - {x: -117, y: 256}
+        - {x: -117, y: 112}
+        - {x: -256, y: 112}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e65460eb4b41e6438498ea682dd41df
+      internalID: 1142722793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -108}
+        - {x: 256, y: 256}
+        - {x: -118, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be9d546caa7ae64fb789636dffeaa9c
+      internalID: -2129860493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 112, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529c9ef78a4110e45a33542368ed3e61
+      internalID: 427422806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_17
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: 113, y: 114}
+        - {x: 113, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692ea68fd2306e54c8a2da389c197b55
+      internalID: 1384128534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_18
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: 113}
+        - {x: -256, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 256}
+        - {x: -117, y: 256}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e26e9dcec7c4d94596518e5fbd39e00
+      internalID: -134186219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_19
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 114, y: 256}
+        - {x: -116, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd4dc9c55caeb44582c8acd2130a622
+      internalID: -1436658422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_20
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: 113}
+        - {x: -256, y: 113}
+        - {x: -256, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -108}
+        - {x: 256, y: -108}
+        - {x: 256, y: 256}
+        - {x: -116, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689903b5cd08f834ebe1a0d618285ca3
+      internalID: -487256635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_21
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+        - {x: -117, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d40d4211370d1d4491950172f55a9e7
+      internalID: -799052266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_22
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04086b999052a6545ac7fb3b760ee4bc
+      internalID: 558720567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_23
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c19a89315f64546926438dce5c1dc0
+      internalID: -1112860372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 132, y: 256}
+        - {x: -128, y: 256}
+      physicsShape:
+      - - {x: -117, y: -109}
+        - {x: 113, y: -109}
+        - {x: 113, y: 256}
+        - {x: -117, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bb0d431ce4c3f4c8c6ba395590c32a
+      internalID: 2091784744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      - - {x: -129, y: 122}
+        - {x: 131, y: 117}
+        - {x: 131, y: 256}
+        - {x: -129, y: 256}
+      - - {x: 92, y: -129}
+        - {x: 256, y: -129}
+        - {x: 256, y: 128}
+        - {x: 96, y: 128}
+      physicsShape:
+      - - {x: -117, y: -109}
+        - {x: 256, y: -108}
+        - {x: 256, y: 113}
+        - {x: 113, y: 113}
+        - {x: 113, y: 256}
+        - {x: -117, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0590cfeae5253684783ca068e201eeb8
+      internalID: 2012474131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      - - {x: -128, y: -91}
+        - {x: 132, y: -90}
+        - {x: 132, y: 255}
+        - {x: -128, y: 256}
+      - - {x: -256, y: -129}
+        - {x: 18, y: -129}
+        - {x: 105, y: 128}
+        - {x: -255, y: 128}
+      physicsShape:
+      - - {x: -256, y: 113}
+        - {x: -256, y: -107}
+        - {x: 113, y: -109}
+        - {x: 113, y: 256}
+        - {x: -117, y: 256}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8671d605020c2254e94fba47f36ac176
+      internalID: 186722017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: 256}
+        - {x: -117, y: 113}
+        - {x: -256, y: 113}
+        - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 113}
+        - {x: 114, y: 113}
+        - {x: 114, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001a3ffaba78bd54e91796d1e10c6501
+      internalID: -1238211485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: 113}
+        - {x: -256, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: 113, y: 113}
+        - {x: 113, y: 256}
+        - {x: -117, y: 256}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082bc12a98b96014cb3d0ce2c83316e8
+      internalID: -451344455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -117, y: -108}
+        - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08bf5b8e315ef24fb205b1d8c849227
+      internalID: -2028163447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -117, y: -108}
+        - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: 113, y: 113}
+        - {x: 113, y: 256}
+        - {x: -117, y: 256}
+        - {x: -117, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b9aa38b68906f4984f2ba706e7609f
+      internalID: 754194178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: 113}
+        - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+        - {x: -117, y: 256}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b9479ad20f184bb5786d24a38ed28
+      internalID: 764560183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: 113, y: 113}
+        - {x: 112.65625, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57f85e0a7802514c85d75c3be38bbb9
+      internalID: -415749854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_33
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 256}
+        - {x: -118, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7ea74aa61bfc442a4215215863279b
+      internalID: -339255929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_34
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -110}
+        - {x: 256, y: -110}
+        - {x: 256, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc26fd39fc4c904a96a082e2f05b6dd
+      internalID: -1770754113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_35
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -109}
+        - {x: 113, y: -109}
+        - {x: 113, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d691473113ff24f85f5c0dc02a8044
+      internalID: -577142330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 256, y: -129}
+        - {x: 256, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f593d47d3a42e4894101835f1f0d1e
+      internalID: -73746551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -256, y: -129}
+        - {x: 256, y: -129}
+        - {x: 256, y: 128}
+        - {x: -256, y: 128}
+      physicsShape:
+      - - {x: -256, y: -108}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866894c8fc826a3458331dab5cd4ee34
+      internalID: 1291937411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -256, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -256, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: 113, y: -109}
+        - {x: 113, y: 113}
+        - {x: -256, y: 112}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adf1309c5579744c96238af896b4873
+      internalID: 697162495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_39
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: 113}
+        - {x: -256, y: 113}
+        - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 256}
+        - {x: -117, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024b845c48b825d4683699e038262189
+      internalID: -1672124503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_40
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: 113, y: 113}
+        - {x: 113, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2952d5722a6705e4a8077de2d20f7c17
+      internalID: 1296717335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_41
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 113}
+        - {x: 114, y: 113}
+        - {x: 113, y: 256}
+        - {x: -116, y: 256}
+        - {x: -117, y: 113}
+        - {x: -256, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a671cc39499cd4285042f2a38bf259
+      internalID: -1767971488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_42
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e3a271f805b734ba553ba5c82475fd
+      internalID: 1739341286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_43
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: -109}
+        - {x: 113, y: -109}
+        - {x: 113, y: 113}
+        - {x: -117, y: 113}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eabf7af91724f44cb8d8f6441bd7128
+      internalID: -151480135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_44
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: 113, y: 256}
+        - {x: 113, y: 113}
+        - {x: 256, y: 113}
+        - {x: 256, y: -256}
+        - {x: -256, y: -256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9931dd223e9100f48819a73fcad8b815
+      internalID: -521454078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_45
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -117, y: 113}
+        - {x: -256, y: 113}
+        - {x: -256, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+        - {x: -117, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f4b02034e3ce74490437cfc68b8e6e
+      internalID: 557715852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_46
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: 256}
+        - {x: -256, y: -256}
+        - {x: 113, y: -256}
+        - {x: 113, y: -109}
+        - {x: 256, y: -109}
+        - {x: 256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488a962877942f24db964c3c1a7429d1
+      internalID: -598339661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mechaneko Tilemap - Asteroid V02_47
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -128, y: -129}
+        - {x: 132, y: -129}
+        - {x: 131, y: 128}
+        - {x: -129, y: 128}
+      physicsShape:
+      - - {x: -256, y: -109}
+        - {x: -117, y: -109}
+        - {x: -117, y: -256}
+        - {x: 256, y: -256}
+        - {x: 256, y: 256}
+        - {x: -256, y: 256}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fc430fedf6b0a4eb07ddf3996308c9
+      internalID: 602638201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4b5ef83159b9e9745a7686b30c7c594f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Mechaneko Tilemap - Asteroid V02_0: -5751429162216271978
+      Mechaneko Tilemap - Asteroid V02_1: -4920459862654727892
+      Mechaneko Tilemap - Asteroid V02_10: 593142731
+      Mechaneko Tilemap - Asteroid V02_11: 2088615607
+      Mechaneko Tilemap - Asteroid V02_12: -581051431
+      Mechaneko Tilemap - Asteroid V02_13: -528619381
+      Mechaneko Tilemap - Asteroid V02_14: 1142722793
+      Mechaneko Tilemap - Asteroid V02_15: -2129860493
+      Mechaneko Tilemap - Asteroid V02_16: 427422806
+      Mechaneko Tilemap - Asteroid V02_17: 1384128534
+      Mechaneko Tilemap - Asteroid V02_18: -134186219
+      Mechaneko Tilemap - Asteroid V02_19: -1436658422
+      Mechaneko Tilemap - Asteroid V02_2: -7172687761394610461
+      Mechaneko Tilemap - Asteroid V02_20: -487256635
+      Mechaneko Tilemap - Asteroid V02_21: -799052266
+      Mechaneko Tilemap - Asteroid V02_22: 558720567
+      Mechaneko Tilemap - Asteroid V02_23: -1112860372
+      Mechaneko Tilemap - Asteroid V02_24: 2091784744
+      Mechaneko Tilemap - Asteroid V02_25: 2012474131
+      Mechaneko Tilemap - Asteroid V02_26: 186722017
+      Mechaneko Tilemap - Asteroid V02_27: -1238211485
+      Mechaneko Tilemap - Asteroid V02_28: -451344455
+      Mechaneko Tilemap - Asteroid V02_29: -2028163447
+      Mechaneko Tilemap - Asteroid V02_3: -2610324086231239930
+      Mechaneko Tilemap - Asteroid V02_30: 754194178
+      Mechaneko Tilemap - Asteroid V02_31: 764560183
+      Mechaneko Tilemap - Asteroid V02_32: -415749854
+      Mechaneko Tilemap - Asteroid V02_33: -339255929
+      Mechaneko Tilemap - Asteroid V02_34: -1770754113
+      Mechaneko Tilemap - Asteroid V02_35: -577142330
+      Mechaneko Tilemap - Asteroid V02_36: -73746551
+      Mechaneko Tilemap - Asteroid V02_37: 1291937411
+      Mechaneko Tilemap - Asteroid V02_38: 697162495
+      Mechaneko Tilemap - Asteroid V02_39: -1672124503
+      Mechaneko Tilemap - Asteroid V02_4: -1830994735
+      Mechaneko Tilemap - Asteroid V02_40: 1296717335
+      Mechaneko Tilemap - Asteroid V02_41: -1767971488
+      Mechaneko Tilemap - Asteroid V02_42: 1739341286
+      Mechaneko Tilemap - Asteroid V02_43: -151480135
+      Mechaneko Tilemap - Asteroid V02_44: -521454078
+      Mechaneko Tilemap - Asteroid V02_45: 557715852
+      Mechaneko Tilemap - Asteroid V02_46: -598339661
+      Mechaneko Tilemap - Asteroid V02_47: 602638201
+      Mechaneko Tilemap - Asteroid V02_5: 684731448
+      Mechaneko Tilemap - Asteroid V02_6: 1134208618
+      Mechaneko Tilemap - Asteroid V02_7: 539042277
+      Mechaneko Tilemap - Asteroid V02_8: -165847776
+      Mechaneko Tilemap - Asteroid V02_9: -951061385
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

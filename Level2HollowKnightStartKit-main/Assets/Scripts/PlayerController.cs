@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private Dasher dasher;
 
+    //2-13-26 start
+    public bool canMove = true;
+    //2-13-26 end
     public ProjectileShooter projectileShooter1;
     public ProjectileShooter projectileShooter2;
     //adjustment to fix flipping issue
@@ -65,7 +68,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+
+        //2-13-26 start
+        if (!canMove)
+            return;
+        //2-13-26 end
+
+
         //If we have an animator...
         if (animator != null)
         {

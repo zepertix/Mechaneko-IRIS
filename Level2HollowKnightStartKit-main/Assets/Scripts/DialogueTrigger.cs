@@ -6,6 +6,8 @@ public class DialogueTrigger2D : MonoBehaviour
     public DialogueController dialogueController;
 
     private bool playerInside = false;
+    private bool hasTriggered = false;
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -20,6 +22,7 @@ public class DialogueTrigger2D : MonoBehaviour
         {
             Debug.Log("Calling BeginDialogue");
             dialogueController.BeginDialogue();
+
         }
         else
         {
@@ -27,21 +30,21 @@ public class DialogueTrigger2D : MonoBehaviour
         }
 
         playerInside = true;
+        hasTriggered = true;
+
+
+        // Disable trigger so it can't fire again <<<<<<<<<<<<<<<<<<<<<<<<<<<
+        GetComponent<Collider2D>().enabled = false;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (!other.CompareTag("Player"))
+        if (!other.CompareTag("Player") || hasTriggered)
             return;
 
         //Debug.Log("Player exited trigger");
 
         playerInside = false;
-
-        if (dialogueController != null)
-        {
-            dialogueController.EndDialogue();
-        }
     }
 
     private void Update()
