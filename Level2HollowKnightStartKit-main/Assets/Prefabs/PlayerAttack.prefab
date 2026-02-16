@@ -418,4 +418,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Destructible
   maximumHitPoints: 1
   faction: 0
-  soundOnHit: {fileID: 0}
+  soundOnHit: {fileID: 8300000, guid: 46262df03a741ab4e8b61601dcc3ca7f, type: 3}

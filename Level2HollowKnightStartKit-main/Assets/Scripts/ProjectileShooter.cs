@@ -8,6 +8,14 @@ public class ProjectileShooter : MonoBehaviour
     [Tooltip("Projectiles per second")]
     public float fireRate = 5f;
 
+    [Range(0f, 1f)]
+    public float shootVolume = 1f;
+
+    //2-14-26 start
+    public AudioClip shootSound;
+    private AudioSource audioSource;
+    //2-14-26 end
+
     private float fireCooldown = 0f;
     private Vector3 direction = Vector3.right;
 
@@ -15,6 +23,19 @@ public class ProjectileShooter : MonoBehaviour
     {
         direction = newDirection;
     }
+
+    //2-14-26 start
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+
+        if (audioSource == null)
+        {
+            Debug.LogWarning("No AudioSource found. Adding one automatically.");
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+    }
+    //2-14-26 end
 
     void Update()
     {
@@ -43,6 +64,23 @@ public class ProjectileShooter : MonoBehaviour
         GameObject newProjectile = Instantiate(projectilePrefab);
 
         newProjectile.transform.position = spawnPoint.position;
+
+        //2-14-26 start
+        Debug.Log("Fire() running");
+
+        Debug.Log("audioSource = " + audioSource);
+        Debug.Log("shootSound = " + shootSound);
+
+        if (audioSource != null && shootSound != null)
+        {
+            Debug.Log("Playing shoot sound");
+            audioSource.PlayOneShot(shootSound, shootVolume);
+        }
+        else
+        {
+            Debug.LogWarning("AudioSource or ShootSound is NULL");
+        }
+        //2-14-26 end
 
         ProjectileController controller = newProjectile.GetComponent<ProjectileController>();
         if (controller != null)
